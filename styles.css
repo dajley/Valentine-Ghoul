@@ -1,0 +1,88 @@
+/* Stylesheet for "For a Special Ghoul" */
+
+/* Body */
+body {
+	background-color: #efdecd;
+}
+
+/* Paragroh text */
+p {
+	font:
+		16px "Ink Free",
+		sans-serif;
+}
+
+/* Top Centered Text */
+.top-centered {
+	color: black;
+	font:
+		30px "Ink Free",
+		sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Container */
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Centered Text */
+.centered {
+	text-align: center;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Bottom Centered Text */
+.bottom-centered {
+	text-align: center;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	bottom: 0%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Button Styles */
+.button {
+	border: none;
+	background-color: #fe0000;
+	color: #efdecd;
+	font:
+		16px "Ink Free",
+		sans-serif;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+/* Letter Text */
+.letter-content {
+	font:
+		16px "Ink Free",
+		sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Image Styles */
+img {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
